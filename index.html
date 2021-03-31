@@ -13,7 +13,7 @@
         <b> <marquee behavior = alternate>Kutay "sherkeyS" KOCA </marquee></b>
         </div>
         
-        <a href="https://tr.wikipedia.org/wiki/Kuzey_Güney" target="_blank"><img src="https://pbs.twimg.com/profile_images/1074795627681325057/BYSlEHeY_400x400.jpg" alt="kuzeytekinoglu" style="float:right;" width="200px"></a>
+        <a href="https://tr.wikipedia.org/wiki/Kuzey_Güney" target="_blank"><img src="https://pbs.twimg.com/profile_images/1074795627681325057/BYSlEHeY_400x400.jpg" alt="kuzeytekinoglu" style="float:right;" width="300px"></a>
 
 
         <h2 style = color:purple;><b> Sitede kullandığım diller :</b></h2>
@@ -35,12 +35,27 @@
         
         <script>
         function iyiHal() {
-          document.getElementById("cevap1").innerHTML = "Sağol!";
+          document.getElementById("cevap1").innerHTML = "Yüzünde gülücükler eksik olmasın :)";
         }
         function KotuHal(){
           document.getElementById("cevap2").innerHTML = "Ne oldu anlatmak ister misin?";
         }
         </script>
+        <p>----------------------------------------------</p>
+        <audio id="myAudio">
+          <source src="audio/machine.ogg" type="audio/ogg">
+          <source src="audio/machine.mp3" type="audio/mpeg">
+          Maalesef tarayıcın bu oynatıcıyı desteklemiyor.
+        </audio>
+
+        <button onclick="playAudio()" type="button" >Sakın Basma</button>
         
+        <script>
+          var x = document.getElementById("myAudio");
+
+          function playAudio(){
+            x.play();
+          }
+        </script>
       </body>
 </html>
