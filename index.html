@@ -9,17 +9,38 @@
 
     </head>
     <body>
-        <div class="ex1"> <b> <marquee behavior = alternate>Kutay "sherkeyS" KOCA </marquee></b>  </div>
+        <div class="ex1"> 
+        <b> <marquee behavior = alternate>Kutay "sherkeyS" KOCA </marquee></b>
+        </div>
         
-        <h2 style = color:seashell;><b> Sitede kullandığım diller :</b></h2>
+        <a href="https://tr.wikipedia.org/wiki/Kuzey_Güney" target="_blank"><img src="https://pbs.twimg.com/profile_images/1074795627681325057/BYSlEHeY_400x400.jpg" alt="kuzeytekinoglu" style="float:right;" width="200px"></a>
+
+
+        <h2 style = color:purple;><b> Sitede kullandığım diller :</b></h2>
         <ul>
-          <li class="html"> HTML </li> <br>
+          <li class="html";> HTML </li> <br>
           <li class="css"> CSS </li> <br>
           <li class="js"> JavaScript </li>
         </ul>
         <br>
-        <p style="font-family:verdana; font-size: x-large;"><b><a href="https://www.instagram.com/kutaykoca_" target="_blank" >Yakışıklı</a></b></p>
-        <p style="font-family:verdana; font-size: x-large;"><b><a href="https://open.spotify.com/user/kutay_kca?si=HwqnmJ6ZRZuna_yyasekrw" target="_blank" >Kulağının pası alınır ;)</a></b></p>
+        
+        <p style="font-size: large;"><strong> Nasılsın ?</strong></p>
+        
+        <button type="button" onclick="iyiHal()"> İyiyim teşekkürler. </button>
+        <button type="button" onclick="KotuHal()"> Kötüyüm ! </button>
+        
+        <p id="cevap1"> </p>
 
+        <p id="cevap2"> </p>
+        
+        <script>
+        function iyiHal() {
+          document.getElementById("cevap1").innerHTML = "Sağol!";
+        }
+        function KotuHal(){
+          document.getElementById("cevap2").innerHTML = "Ne oldu anlatmak ister misin?";
+        }
+        </script>
+        
       </body>
 </html>
