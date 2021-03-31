@@ -5,6 +5,7 @@
        image
 
        /* linkler için */
+       
        a:link,a:visited {
         border: 4px solid green;
         color: rgb(0, 148, 25);
