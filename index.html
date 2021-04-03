@@ -1,61 +1,180 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kutay KOCA</title>
+  <meta name ="keyword" content="Kutay KOCA"/>
+  <meta name ="description" content="Kutay KOCA"/>
 
-<html>
-    <head>
-            <meta charset="utf-8" />
-            <title>Kutay KOCA</title>
-            
-            <link rel="stylesheet" href="style.css">
+  <!-- fonts google -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
 
-    </head>
-    <body>
-        <div class="ex1"> 
-        <b> <marquee behavior = alternate>Kutay "sherkeyS" KOCA </marquee></b>
+  <!-- fonts awesome -->
+  <link 
+  rel="stylesheet" 
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" 
+  integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" 
+  crossorigin="anonymous" />
+  <link rel="stylesheet" href="global.css">
+  <link rel="stylesheet" href="main.css">
+
+  <!-- telefonlar icin -->
+  <link rel="stylesheet" media="(max-width:500px)" href="mobile.css">
+  
+</head>
+<body>
+  <header class="bg-dark-blue">
+    <div class="container">
+      <nav id = "navbar">
+      <h1 class="heading-small">Kutay KOCA</h1>
+
+      <ul>
+        <li><a href="#anasayfa">Ana Sayfa</a></li>
+        <li><a href="#egitim">Eğitim</a></li>
+        <li><a href="#yazilimdilleri">Yazılım Dilleri</a></li>
+        <li><a href="#iletisim">İletişim</a></li>
+      </ul>
+    </nav>
+    </div>
+  </header>
+
+  <section id="anasayfa">
+
+    <img src="images/deneme.jpg" alt="Kutay KOCA (ben)">
+
+    <div class="name text-center">
+    <h2 class="heading-big">Kutay KOCA</h2>
+    <p>Computer Engineer | Bilgisayar Mühendisi</p>
+    </div>
+
+    <a href="#iletisim">Benimle Bağlantı Kur</a>
+  </section>
+  
+  <section id="egitim" class="bg-dark-blue">
+
+    <h3 class="text-center heading-medium">Okuduğum Okullar</h3>
+    <div class="items">
+
+      <article class="item"> <a href="http://sinopfenlisesi.meb.k12.tr" target="_blank"><i class="fa fa-pencil-alt"></i>
+        <h3>Lise</h3>
+        <p>Sinop Fen Lisesi</p>
+        <p class="info">2014-2018 yılları arası lise eğitimimi bu okulda tamamladım.</p></a>
+        
+      </article>
+      <article class="item"> <a href="https://www.bandirma.edu.tr"target="_blank"><i class="fa fa-pencil-alt"></i>
+        <h3>Üniversite</h3>
+        <p>Bandırma 17 Eylül Üniversitesi</p>
+        <p class="info">
+          2019 yılında girdiğim Bilgisayar Mühendisliği Bölümüne halen devam etmekteyim.
+        </p></a>
+      </article>
+    </div>
+    </section>
+    <section id = "yazilimdilleri">
+      
+      <h3 class="text-center heading-medium">Kullanılması Yaygın olan Yazılım Dilleri</h3>
+
+      <div class="container">
+        <div class="yazilimdilleri">
+          <!-- 1.dil -->
+          <div class="yazilim">
+            <div class="yazilim-image">
+              <img src="images/html.png" alt="html"/>
+              <span>HTML</span>
+            <div>
+                <div class="yazilim-info">
+                  <div class="title">
+                    HTML (Hyper Text Markup Language)
+                  </div>
+                  <div class="description">
+                    İnternet üzerinde web sayfası oluşturmak için kullanılan bir betik dilidir. HTML dosyalarının aktarımı için HTTP kullanılır. HTML dosyaları sunucu bilgisayarın sabit diskinde .html ya da .htm uzantısı ile saklanır. Yazdığımız html dosyaları düz yazı dosyalarından başka bir şey değildir. Yani yazdığımız html dosyalarını bir C ya da Pascal programında olduğu gibi bir derleyici ile derlememize gerek yoktur. Bir siteye girdiğimiz zaman bize görüntülenen ilk sayfa index.html, index.htm, index.asp, index.php ya da default.htm dosyalarından birisidir. index.* dosyaları UNIX ve türevi sunucu sistemler, default.htm dosyasıda WinNT ya da türevi sistemler için giriş sayfası olur. Yukarıda saydıklarımın dışında uzantısı değişik birçok biçemdeki sayfalar da sunucu sistemin ayarları değiştirilerek giriş sayfası yapılabilir.
+                  </div>
+                  <div class="linkkoydum">
+                    <a href="https://www.w3schools.com/html/" target="_blank">Buradan detaylı bilgilere ulaşabilirsiniz.</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- 2.dil -->
+          <div class="yazilim">
+            <div class="yazilim-image">
+              <img src="images/css.jpg" alt="css">
+              <span>CSS</span>
+              <div>
+
+                <div class="yazilim-info">
+                  <div class="title">
+                    CSS (Cascading Style Sheets)
+                  </div>
+                  <div class="description">
+                    Web sitelerinin görsel olarak şekillendirilmesine olanak tanıyan ve kendine has kuralları olan bir tanım dilidir şeklinde ifade edilebilir. HTML ve JavaScript ile birlikte en temel web teknolojileri arasında bulunan CSS, web sayfaları üzerinde oldukça fazla görsel denetim sunar. 
+                    CSS sayesinde web sayfalarının mizanpajı, renkleri, kullanılan fontlar, ara başlıklar, görsel efektler ve diğer görsel unsurlar üzerinde etkili ve fonksiyonel bir kontrol sağlayabilirsiniz. Kullanıcı dostu olan ve görsel açıdan etkileyici web siteleri için HTML ve JavaScript’in yanı sıra yazılan CSS kodları son derece önem taşır. Etkili bir CSS kodlaması, web sitelerine yüksek bir kullanılabilirlik sunar.
+                  </div>
+                  <div class="linkkoydum">
+                    <a href="https://www.w3schools.com/css/" target="_blank">Buradan detaylı bilgilere ulaşabilirsiniz.</a>
+                  </div>
+           </div>
+          
+        <!-- 3.dil -->
+        <div class="yazilim">
+          <div class="yazilim-image">
+            <img src="images/javascript.png" alt="JavaScript">
+            <span>JavaScript</span>
+            <div>
+              <div class="yazilim-info">
+                <div class="title">
+                  JS (JavaScript)
+                </div>
+                <div class="description">
+                  web sitelerinin işlevini arttırmaktan oyunlar çalıştırmaya kadar çoğu amaç için kullanılabilir.
+                </div>
+                <div class="linkkoydum">
+                 <a href="https://www.w3schools.com/js/" target="_blank">Buradan detaylı bilgilere ulaşabilirsiniz.</a>
+                </div>
+          </div>
+          <!-- 4.dil -->
+        <div class="yazilim">
+          <div class="yazilim-image">
+            <img src="images/c++.jpg" alt="c++">
+            <span>C++</span>
+          <div>
+            <div class="yazilim-info">
+              <div class="title">
+                C++
+              </div>
+              <div class="description">
+              1979 yılından itibaren Bjarne Stroustrup tarafından geliştirilen genel amaçlı, orta seviyeli, Nesne Yönelimli Programlama, Generic Programlama gibi programlama yöntemlerine imkan veren bir programlama dilidir.
+              </div>
+              <div class="linkkoydum">
+                <a href="https://www.w3schools.com/cpp/" target="_blank">Buradan detaylı bilgilere ulaşabilirsiniz.</a>
+              </div>
+              <!-- 5.dil -->
+            <div class="yazilim">
+            <div class="yazilim-image">
+              <img src="images/c.jpg" alt="c">
+              <span>C#</span>
+              <div>
+                <div class="yazilim-info">
+                  <div class="title">
+                    C# (C Sharp)
+                  </div>
+                  <div class="description">
+                  Microsoft tarafından geliştirilen bir programlama dilidir. Programlama dilleri arasında en çok tercih edilen C ve C++ ile etkileşimli şekilde geliştirilen ve modern bir kodlama sahip olan C#, birçok platform destekleyen Java dili ile de oldukça fazla benzerlik gösteriyor.
+                  </div>
+                  <div class="linkkoydum">
+                    <a href="https://www.w3schools.com/cs/" target="_blank">Buradan detaylı bilgilere ulaşabilirsiniz.</a>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        
-        <a href="https://tr.wikipedia.org/wiki/Kuzey_Güney" target="_blank"><img src="https://pbs.twimg.com/profile_images/1074795627681325057/BYSlEHeY_400x400.jpg" alt="kuzeytekinoglu" style="float:right;" width="300px"></a>
-
-
-        <h2 style = color:purple;><b> Sitede kullandığım diller :</b></h2>
-        <ul>
-          <li class="html";> HTML </li> <br>
-          <li class="css"> CSS </li> <br>
-          <li class="js"> JavaScript </li>
-        </ul>
-        <br>
-        
-        <p style="font-size: large;"><strong> Nasılsın ?</strong></p>
-        
-        <button type="button" onclick="iyiHal()"> İyiyim teşekkürler. </button>
-        <button type="button" onclick="KotuHal()"> Kötüyüm ! </button>
-        
-        <p id="cevap1"> </p>
-
-        <p id="cevap2"> </p>
-        
-        <script>
-        function iyiHal() {
-          document.getElementById("cevap1").innerHTML = "Yüzünde gülücükler eksik olmasın :)";
-        }
-        function KotuHal(){
-          document.getElementById("cevap2").innerHTML = "Ne oldu anlatmak ister misin?";
-        }
-        </script>
-        <p>----------------------------------------------</p>
-        <audio id="myAudio">
-          <source src="audio/machine.ogg" type="audio/ogg">
-          <source src="audio/machine.mp3" type="audio/mpeg">
-          Maalesef tarayıcın bu oynatıcıyı desteklemiyor.
-        </audio>
-
-        <button onclick="playAudio()" type="button" >Sakın Basma</button>
-        
-        <script>
-          var x = document.getElementById("myAudio");
-
-          function playAudio(){
-            x.play();
-          }
-        </script>
-      </body>
+      </div>
+  </section>
+</body>
 </html>
