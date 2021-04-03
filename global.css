@@ -38,6 +38,27 @@
     background:#fff;
     border: 0.5px solid  #336ea2;
 }
+.btn-block {
+    width: 100%;
+    text-align: center;
+}
+
+/* Formlar */
+
+.form-grup{
+    padding: 0.25rem;
+    margin: 0 auto;
+}
+.form-kontrol{
+    width: 100%;
+    padding: 0.4rem;
+    font-size: 1rem;
+    resize: none;
+    border-radius: 5px;
+}
+.form-grup label{
+    display:block;
+}
 
 
 /* Container */
