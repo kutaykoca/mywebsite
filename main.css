@@ -40,6 +40,9 @@ html {
      align-items: center;
      padding: 2rem;
      border-bottom: 1px solid grey;
+     background-image: url(/images/arkaplan-anasayfa.jpg);
+     background-repeat:no-repeat;
+     background-size:cover;
  }
  #anasayfa img{
      max-width: 100%;
