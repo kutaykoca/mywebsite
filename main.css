@@ -55,6 +55,7 @@ html {
  #anasayfa .name p{
      opacity: 0.6;
      font-style: italic;
+     background-color: #336ea2;
  }
  #anasayfa a{
      margin-top: 1.25rem;
